@@ -8,7 +8,7 @@ public class QuickFind
     int size=0;
     int []id;
     //Constructor to intialize the size of array and store respective individual ID's
-    UnionFind(int n)
+    QuickFind(int n)
     {
         size=n;
         id=new int[size];
@@ -42,7 +42,7 @@ public class QuickFind
         BufferedReader br=new BufferedReader(inp);
         Scanner in=new Scanner(System.in);
         int N=in.nextInt();
-        UnionFind ob=new UnionFind(N);
+        QuickFind ob=new QuickFind(N);
         
         while(true)
         {
