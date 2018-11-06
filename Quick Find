@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 import java.io.*;
-public class UnionFind
+public class QuickFind
 {
     int size=0;
     int []id;
